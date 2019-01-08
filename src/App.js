@@ -8,8 +8,8 @@ import SearchParams from "./SearchParams";
 import { Provider } from "./SearchContext";
 
 const petfinder = pf({
-  key: process.env.API_KEY,
-  secret: process.env.API_SECRET
+  key: "0cf4111af05b018aaf9390b3ef08d3fa",
+  secret: "a70949bf14d98473070acffd1d51b903"
 });
 
 class App extends React.Component {
